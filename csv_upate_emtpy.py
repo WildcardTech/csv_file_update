@@ -14,7 +14,7 @@ with open('input.csv', 'r') as csvfile:
                 # Check if the cell is blank
                 if cell.strip() == '':
                     # If the cell is blank, add a value
-                    row[i] = 'N/A'
+                    row[i] = 'attala123'
 
             # Write the updated row to the output CSV file
             writer.writerow(row)
